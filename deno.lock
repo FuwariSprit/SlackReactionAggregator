@@ -1,0 +1,23 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/csv@^1.0.3": "1.0.3",
+    "jsr:@std/streams@^1.0.4": "1.0.6"
+  },
+  "jsr": {
+    "@std/csv@1.0.3": {
+      "integrity": "623acf0dcb88d62ba727c3611ad005df7f109ede8cac833e3986f540744562e5",
+      "dependencies": [
+        "jsr:@std/streams"
+      ]
+    },
+    "@std/streams@1.0.6": {
+      "integrity": "022ed94e380d06b4d91c49eb70241b7289ab78b8c2b4c4bbb7eb265e4997c25c"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/csv@^1.0.3"
+    ]
+  }
+}
